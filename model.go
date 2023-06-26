@@ -175,3 +175,16 @@ type BlocksMined struct {
 	TimeStamp   string `json:"timeStamp"`
 	BlockReward string `json:"blockReward"`
 }
+
+// GetContractCreator
+type GetContractCreatorResp struct {
+	Status  string                `json:"status"`
+	Message string                `json:"message"`
+	Result  []ContractCreator `json:"result"`
+}
+
+type ContractCreator struct {
+	Token string `json:"contractAddress"`
+	Creator string `json:"contractCreator"`
+	Hash string `json:"txHash"`
+}

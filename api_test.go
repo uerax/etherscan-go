@@ -6,9 +6,9 @@ import (
 )
 
 func TestGetBalance(t *testing.T) {
-	s, e := GetBlocksMined("QK93QKZ9R3P9SW3D3J6IRGACWQG2UT2H7B", "0x9dd134d14d1e65f84b706d6f205cd5b1cd03a46b", "", "", "")
+	//s, e := GetBlocksMined("QK93QKZ9R3P9SW3D3J6IRGACWQG2UT2H7B", "0x9dd134d14d1e65f84b706d6f205cd5b1cd03a46b", "", "", "")
 	
-	//s, _ := GetInternalTransactionsByHash( "QK93QKZ9R3P9SW3D3J6IRGACWQG2UT2H7B","0xcf1391fdc758566a26bd5e511eceb3e7dd3bd76c9515c83087246d468de72998")
+	s, e := GetContractCreator( "QK93QKZ9R3P9SW3D3J6IRGACWQG2UT2H7B","0x3267c5b73cc15e253b1a90c01366b17d560bc6fb")
 	fmt.Println(s,e)
 }
 

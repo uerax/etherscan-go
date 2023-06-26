@@ -11,7 +11,6 @@ import (
 // Convert Ethereum units using Unit Converter https://etherscan.io/unitconverter.
 //
 // Parameters:
-//
 //	tag: the string pre-defined block parameter, either 'earliest', 'pending' or 'latest', default latest
 //	apikey: YourApiKeyToken
 //	address: the string representing the address to check for balance
